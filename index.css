@@ -1,0 +1,49 @@
+.container{
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    top: 50%;
+    transform: translate(0, -50%);
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.button:nth-child(even){
+    background-color: #000;
+}
+
+.button:nth-child(odd) {
+    background-color: #f1f1f1;
+    color: #f1f1f1;
+}
+
+.button{
+    display: inline-block;
+    width: 8%;
+    height: 200px;
+}
+
+.outsideButtonArea{
+    width: 80%;
+    margin: 0 auto;
+    font-family: 'Karla', sans-serif;
+    position: relative;
+    top: 50%;
+    transform: translate(0, -50%);
+    text-align: center;
+    color: floralwhite;
+}
+
+.outsideButtons{
+    height: 40px;
+    width: 250px;
+    background:coral;
+    display:inline-block;
+    padding-top: 20px;
+    transition: 0.3s;
+}
+
+.changeColor{
+    background: crimson;
+}
